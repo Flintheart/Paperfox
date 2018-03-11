@@ -20,3 +20,8 @@ Use unsigned ZIP
 Since AMO doesn't allow the upload and signing of WebExtension themes at the moment, you have to allow the installation of unsigned extensions in Firefox Nightly or Firefox Developer Edition to use this theme.
 
 In `about:config` change `xpinstall.signatures.required` to `false`.
+
+Screenshot
+----------
+
+![alt Screenshot](screen.png "Screenshot, Version 1.0.0")
