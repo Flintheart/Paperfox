@@ -1,0 +1,40 @@
+{
+  "manifest_version": 2,
+  "name": "Paperfox",
+  "version": "1.0",
+  "description": "Changes browser appearance to paper theme.",
+  "icons": {
+    "48": "icon.svg"
+  },
+  "theme": {
+    "colors": {
+      "accentcolor": "#455a63",
+      "button_background_active": "rgba(153,153,153,.12)",
+      "button_background_hover": "transparent",
+      "icons": "rgba(0,0,0,.54)",
+      "icons_attention": "#e91e63",
+      "popup": "#FAFAFA",
+      "popup_border": "rgba(0,0,0,.12)",
+      "popup_highlight": "#03a9f4",
+      "popup_highlight_text": "white",
+      "popup_text": "rgba(0,0,0,.87)",
+      "tab_line": "#e91e63",
+      "tab_loading": "#e91e63",
+      "textcolor": "rgba(255,255,255,.7)",
+      "toolbar": "#fafafa",
+      "toolbar_bottom_separator": "#dcdcdc",
+      "toolbar_field": "white",
+      "toolbar_field_border": "transparent",
+      "toolbar_field_separator": "rgba(0,0,0,.12)",
+      "toolbar_field_text": "rgba(0,0,0,.87)",
+      "toolbar_text": "rgba(0,0,0,.87)",
+      "toolbar_top_separator": "transparent",
+      "toolbar_vertical_separator": "rgba(0,0,0,.12)"
+    }
+  },
+  "applications": {
+    "gecko": {
+      "id": "paperfox@flintheart"
+    }
+  }
+}

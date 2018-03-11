@@ -1,0 +1,16 @@
+{
+  "name": "Paperfox",
+  "description": "Changes browser appearance to paper theme.",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "start:firefox": "web-ext run",
+    "build": "web-ext build --artifacts-dir=dist",
+    "lint": "web-ext lint",
+    "sign": "web-ext sign"
+  },
+  "devDependencies": {
+    "web-ext": "^2.4.0"
+  }
+}
